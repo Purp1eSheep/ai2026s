@@ -21,7 +21,7 @@
 
   @font-face {
     font-family:'CircleFont';
-    src: url(https://circle472.github.io/ct2022s/hw04/CircleFont_v2.woff2); 
+    src: url(https://circle472.github.io/ct2022s/hw04/CircleFont_v2.woff2);
   }
 
   table {
@@ -58,14 +58,14 @@
   {
       position:absolute;
       top:5%;
-      display:block; 
+      display:block;
       line-height:16px;
       width:45%;
       height:90%;
       background:#fff;
       box-sizing:border-box;
       text-align:center;
-      transition: all 0.3s ease-in 0s; 
+      transition: all 0.3s ease-in 0s;
       color:rgba(159,53,58,1);
       border:#888 1px solid;
       border-radius:3px;
@@ -86,7 +86,9 @@
     color: rgb(106, 76, 156);
     font-family: 'CircleFont', 'Noto Sans JP', serif;
   }
-
+  p{
+    font-family:'LXGW WenKai Mono TC';
+  }
   .container-fluid {
     width:  90%;
   }
@@ -115,7 +117,7 @@
 
   .twenty:hover {
       box-shadow: 0 0 5px 3px #f9eced;
-      color: cyan; 
+      color: cyan;
       text-shadow: 0 0 6px #FFFFFF, 0 0 6px #000000;
   }
 
@@ -156,7 +158,17 @@
       寫完作業的那天晚上我並沒有欣喜若狂，我去洗了澡睡個覺。作業收得普通，大多人準時完成，就彷彿好像蘋果就會往下掉一樣簡單。我不知道我寫了多少之跟兮，彷彿金字塔的一磚磚砌成了他也成就了他。我沒有失去什麼，但是虛無灌滿了我的空洞，如同宇宙跟我打密報。我為什麼修這課呢？也許跟銀河系誕生一樣偶然，我才在被窩裡像是被蘋果砸到般驚醒，也或許我根本就沒睡著。
     </div>
   </div>
-
+  <!-- ------------------------------------------------>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">
+      <span>倉庫位置連結： </span>
+      <br>
+      <button type="button" onclick="location.href='https://github.com/lctung/ai2026s/tree/main/hw01'">
+        前往 hw01 倉庫
+      </button>
+      <div>(p.s 請記得修改網址)</div>
+    </div>
+  </div>
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
@@ -169,22 +181,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,15 +207,41 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-3 twenty">
+      <figcaption>1. 千字文 第1頁</figcaption>
+      <img class="withborder" src="./img/page-1.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>2. 長恨歌 第1頁</figcaption>
+      <img class="withborder" src="./img/page-2.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>3. 洛神賦 第1頁</figcaption>
+      <img class="withborder" src="./img/page-3.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>4. 詩經 第1頁</figcaption>
+      <img class="withborder" src="./img/page-4.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>5. 注音、部首 第1頁</figcaption>
+      <img class="withborder" src="./img/page-5.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption>6. 英文、數字 第1頁</figcaption>
+      <img class="withborder" src="./img/page-6.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption> 7. 標點符號 第1頁</figcaption>
+      <img class="withborder" src="./img/page-7.png" width="100%">
+    </div>
+    <div class="col-md-3 twenty">
+      <figcaption> 8. 姓氏名字號 第1頁</figcaption>
+      <img class="withborder" src="./img/page-8.png" width="100%">
     </div>
   </div>
 
   <!-- ------------------------------------------------>
-
   <!-- ------------------------------------------------>
 
 
@@ -224,7 +262,7 @@
   // d3.select("#myCheckbox7").on("change",update);
 
   update();
-  
+
   function update(){
 
     var score = 0;
@@ -234,22 +272,21 @@
     }
 
     if (d3.select("#myCheckbox2").property("checked")){
-      score += parseInt(d3.select('#m2').html());   
+      score += parseInt(d3.select('#m2').html());
     }
 
     if (d3.select("#myCheckbox3").property("checked")){
-      score += parseInt(d3.select('#m3').html());   
+      score += parseInt(d3.select('#m3').html());
     }
 
     if (d3.select("#myCheckbox4").property("checked")){
-      score += parseInt(d3.select('#m4').html());   
+      score += parseInt(d3.select('#m4').html());
     }
 
 
-    d3.select("#myTotal").html(score);    
+    d3.select("#myTotal").html(score);
   }
 </script>
 
 </body>
 </html>
-
